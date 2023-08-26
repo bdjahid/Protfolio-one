@@ -85,3 +85,51 @@
     text-align: center;
     padding: 15px 0px;
 }
+
+.bg-color {
+    background-image: url(./images/background.png),
+        linear-gradient(45deg, #1f1e1e, #252424)
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 30px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #201f1f;
+}
+
+.img-icon {
+    width: 70px;
+}
+
+.box-btn {
+    background-color: gray;
+    margin: 10px;
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.card-dec {
+    padding: 5px;
+}
+
+.title-2 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+
+}
