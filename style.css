@@ -40,3 +40,37 @@
 .item a:hover {
     color: blue;
 } */
+.bannar-container {
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    height: 100vh;
+    color: white;
+    background-image: url(./images/background.png),
+        linear-gradient(45deg, #1f1e1e, #252424)
+}
+
+.bannar-img {
+    width: 300px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.dec {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(223, 171, 171);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
